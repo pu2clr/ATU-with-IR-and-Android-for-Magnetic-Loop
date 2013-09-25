@@ -29,7 +29,6 @@ Wires
 
 Switch Key On/Off
 
-
-3 10K resistors 
-1 1K resistor
+10K resistors 
+1K resistors
 
