@@ -31,6 +31,7 @@ Para minimizar este problema, este projeto pretende implementar um sistema de si
 Small and lightweight with considerable output power. This Servo can rotate approximately 180 degrees, and works like a standard servo.
 
 | Feature | Description | 
+| ------- | ----------- |
 | Modulation | Analog |
 | Torque | 4.8V: 22.2 oz-in (1.60 kg-cm) |
 | Speed | 4.8V: 0.12 sec/60° |
