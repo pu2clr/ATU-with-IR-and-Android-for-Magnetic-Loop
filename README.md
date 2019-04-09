@@ -22,9 +22,22 @@ Using few components, this project intends to implement a remote control for a M
 
 ### [Servo TG9 Servo](http://www.ee.ic.ac.uk/pcheung/teaching/DE1_EE/stores/sg90_datasheet.pdf)
 
-Small and lightweight with considerable output power. This Servo can rotate approximately 180 degrees, and works like a standard servo.
+Small and lightweight with considerable output power. This Servo can rotate approximately 180 degrees, and works like a standard servo. The table below show the features of the servo used here. 
 
-
+| Feature | Description | 
+| ------- | ----------- |
+| Modulation | Analog |
+| Torque | 4.8V: 22.2 oz-in (1.60 kg-cm) |
+| Speed | 4.8V: 0.12 sec/60° |
+| Weight | 0.32 oz (9.0 g) |
+| Dimensions | -------  |
+|  | Length: 0.91 in (23.1 mm) | 
+|  | Width:  0.43 in (10.9 mm) |
+|  | Height: 1.14 in (29.0 mm) |
+| Motor Type | Coreless |
+| Gear Type | Plastic |
+| Rotation/Support | Bushing | 
+| Pulse Range | 600mS to 2100mS pulse | 
 
 - [Rotary Encoder - Illuminated (Red/Green)](https://www.sparkfun.com/products/10596)
 - [Infrared receiver (taken from a scrap DVD player)](http://www.ebay.com/itm/- VS1838B-Infrared-receiver-38Khz-Infrared-sensor-IR-Infrared-Receiver-/260875354763?pt=LH_DefaultDomain_0&hash=item3cbd62028b)

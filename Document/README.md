@@ -37,9 +37,9 @@ Small and lightweight with considerable output power. This Servo can rotate appr
 | Speed | 4.8V: 0.12 sec/60° |
 | Weight | 0.32 oz (9.0 g) |
 | Dimensions | -------  |
-| - | Length: 0.91 in (23.1 mm) | 
-| - | Width:  0.43 in (10.9 mm) |
-| - | Height: 1.14 in (29.0 mm) |
+|  | Length: 0.91 in (23.1 mm) | 
+|  | Width:  0.43 in (10.9 mm) |
+|  | Height: 1.14 in (29.0 mm) |
 | Motor Type | Coreless |
 | Gear Type | Plastic |
 | Rotation/Support | Bushing | 
