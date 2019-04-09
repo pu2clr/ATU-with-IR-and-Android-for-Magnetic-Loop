@@ -10,11 +10,12 @@
 * [Photos](https://github.com/pu2clr/ATU-with-IR-and-Android-for-Magnetic-Loop#photos)
 * [Videos](https://github.com/pu2clr/ATU-with-IR-and-Android-for-Magnetic-Loop#videos)
 
-To be continue....
 
 ## Introduction
 
+Magnetic Loop Antenna is very useful for limited space and also portability.  It can provide reasonable gain on 20, 17 and 15 meters and excellent gain on 10 meters.   However, working with a Magnetic Loop Antenna can become uncomfortable sometimes doe to constant need to adequate it to the frequency or band that the user wants to work. This project tries to minimize this problem by allowing the user control the antenna remotely.
 
+Using few components, this project intends to implement a remote control for a Magnetic Loop Antenna tha can be used with an Alexloop or a homebrew antenna.  
 
 
 ## Schematic
@@ -38,6 +39,15 @@ To be continue....
 
 
 There are two Arduino sketch version for this project.... see source folder ... to be continue... 
+
+
+
+
+## Final consideration 
+
+
+Before I started this project, I was worried if the Arduino could cause unwanted noise or interference in my reception, specially, if it works very close to loop antenna. Actually, there is a crystal that oscillates at 16MHz on Arduino board and other components that potentially can generate unwanted signal. However, I haven’t noticed any difference using the loop antenna with this system on and off.   
+
 
 
 ## Photos
