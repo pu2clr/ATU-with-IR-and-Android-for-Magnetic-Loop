@@ -1,6 +1,30 @@
 # Antenna Tuner for Magnetic Loop Antenna controlled by Arduino via IR
 
+
+
+
 To be continue....
+
+
+## Schematic
+
+![schematic](https://github.com/pu2clr/ATU-with-IR-and-Android-for-Magnetic-Loop/blob/master/schematic/schematic_arduino_IR-NEW.png)
+
+
+
+## Photos
+
+
+![Photo 01](https://github.com/pu2clr/ATU-with-IR-and-Android-for-Magnetic-Loop/blob/master/Photos/photo01.jpg)
+
+
+![Photo 02](https://github.com/pu2clr/ATU-with-IR-and-Android-for-Magnetic-Loop/blob/master/Photos/photo02.jpg)
+
+
+![Photo 03](https://github.com/pu2clr/ATU-with-IR-and-Android-for-Magnetic-Loop/blob/master/Photos/photo03.jpg)
+
+
+![Photo 04](https://github.com/pu2clr/ATU-with-IR-and-Android-for-Magnetic-Loop/blob/master/Photos/photo04.jpg)
 
 
 
