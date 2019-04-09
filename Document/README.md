@@ -46,6 +46,11 @@ Small and lightweight with considerable output power. This Servo can rotate appr
 | Pulse Range | 600mS to 2100mS pulse | 
 
 
+![Micro Servo TG9](https://github.com/pu2clr/ATU-with-IR-and-Android-for-Magnetic-Loop/blob/master/Photos/micro_servo_TG9.jpg)
+
+
+
+
 - [Rotary Encoder - Illuminated (Red/Green)](https://www.sparkfun.com/products/10596)
 - [Infrared receiver (taken from a scrap DVD player)](http://www.ebay.com/itm/- VS1838B-Infrared-receiver-38Khz-Infrared-sensor-IR-Infrared-Receiver-/260875354763?pt=LH_DefaultDomain_0&hash=item3cbd62028b)
 - [Arduino (Pro Mini atmega328 5V)](http://www.ebay.com/itm/New-ver-Promini-Pro-Mini-atmega328-328p-5V-16MHz-Arduino-Compatible-nano-size-/321090929788?pt=LH_DefaultDomain_0&hash=item4ac282c47c)

@@ -22,7 +22,7 @@ Using few components, this project intends to implement a remote control for a M
 
 ### [Servo TG9 Servo](http://www.ee.ic.ac.uk/pcheung/teaching/DE1_EE/stores/sg90_datasheet.pdf)
 
-Small and lightweight with considerable output power. This Servo can rotate approximately 180 degrees, and works like a standard servo. The table below show the features of the servo used here. 
+Small and lightweight with considerable output power. This Servo can rotate approximately 180 degrees, and works like a standard servo. The table below shows the features of the servo used here. 
 
 | Feature | Description | 
 | ------- | ----------- |
@@ -38,6 +38,10 @@ Small and lightweight with considerable output power. This Servo can rotate appr
 | Gear Type | Plastic |
 | Rotation/Support | Bushing | 
 | Pulse Range | 600mS to 2100mS pulse | 
+
+
+![Micro Servo TG9](https://github.com/pu2clr/ATU-with-IR-and-Android-for-Magnetic-Loop/blob/master/Photos/micro_servo_TG9.jpg)
+
 
 - [Rotary Encoder - Illuminated (Red/Green)](https://www.sparkfun.com/products/10596)
 - [Infrared receiver (taken from a scrap DVD player)](http://www.ebay.com/itm/- VS1838B-Infrared-receiver-38Khz-Infrared-sensor-IR-Infrared-Receiver-/260875354763?pt=LH_DefaultDomain_0&hash=item3cbd62028b)
