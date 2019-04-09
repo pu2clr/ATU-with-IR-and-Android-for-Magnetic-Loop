@@ -30,20 +30,20 @@ Para minimizar este problema, este projeto pretende implementar um sistema de si
 
 Small and lightweight with considerable output power. This Servo can rotate approximately 180 degrees, and works like a standard servo.
 
-|Feature| Description| 
-|Modulation:|Analog|
-|Torque:|4.8V: 22.2 oz-in (1.60 kg-cm)|
-|Speed:|4.8V: 0.12 sec/60°|
-|Weight:|0.32 oz (9.0 g)|
-|Dimensions:|  in (mm) |
-|Length:|0.91 in (23.1 mm)| 
-|Width:|0.43 in (10.9 mm)|
-|Height:|1.14 in (29.0 mm)|
+| Feature | Description | 
+| Modulation | Analog |
+| Torque | 4.8V: 22.2 oz-in (1.60 kg-cm) |
+| Speed | 4.8V: 0.12 sec/60° |
+| Weight | 0.32 oz (9.0 g) |
+| Dimensions | in (mm) |
+| Length | 0.91 in (23.1 mm) | 
+| Width | 0.43 in (10.9 mm) |
+| Height | 1.14 in (29.0 mm) |
 | ----- | -----|
-|Motor Type:|Coreless|
-|Gear Type:|Plastic|
-|Rotation/Support:|Bushing| 
-|Pulse Range| 600mS to 2100mS pulse| 
+| Motor Type | Coreless |
+| Gear Type | Plastic |
+| Rotation/Support | Bushing | 
+| Pulse Range | 600mS to 2100mS pulse | 
 
 
 - [Rotary Encoder - Illuminated (Red/Green)](https://www.sparkfun.com/products/10596)
