@@ -1,5 +1,6 @@
 # Antenna Tuner for Magnetic Loop Antenna controlled by Arduino via IR
 
+Clique [aqui](https://github.com/pu2clr/ATU-with-IR-and-Android-for-Magnetic-Loop/tree/master/Document) para documentação em Português.
 
 ## Table of contents
 
