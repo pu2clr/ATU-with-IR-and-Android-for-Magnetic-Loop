@@ -9,7 +9,8 @@
 
 // Arduino IR remote control
 // This constants depends of your remote control
-// Debug it using Serial functions (Serial.println) and serial monitor to verify the values of your remote control. 
+// Debug it using Serial functions (Serial.println) and serial monitor to verify the values of your remote control.
+// See how you can know the code returned by your IR remote control on CheckYourRemoteControl
 
 #define BT_RIGHT_PRESSED      2064      // right button keep pressed
 #define BT_RIGHT_TOUCH          16      // right button single touch

@@ -12,7 +12,8 @@
 #define SERVO_PIN               9
 #define FINE_TUNE_LED          10
 
-// Arduino IR remote control
+// Arduino IR remote control.
+// See how you can know the code returned by your IR remote control on CheckYourRemoteControl
 #define BT_RIGHT_PRESSED      2064      // right button keep pressed
 #define BT_RIGHT_TOUCH          16      // right button single touch
 #define BT_LEFT_PRESSED       2065      // left button keep pressed
@@ -26,26 +27,24 @@
 #define BT_AV_TV_PRESSED      2059      // AV/TV button keep pressed
 #define BT_AV_TV_TOUCH          11      // AV/TV button sigle touch
 
-
-
-
 IRrecv irrecv(IR_RECEIVER_PIN);
 decode_results results;
 
-
+// See you servo specification
 #define MIN_PULSE    510
 #define MAX_PULSE    2500
 #define CENTER_PULSE (MIN_PULSE + (MAX_PULSE - MIN_PULSE) / 2)
 
+// You might want modify this values depending on your servo and capacitor
 #define FINE_TUNE_STEP     1
 #define NORMAL_TUNE_STEP  15
 
 
 int fineTune = 0;
 
-int capacitorPosition = CENTER_PULSE;  // The capacitor starts in the center position;
+int capacitorPosition = CENTER_PULSE;  // The capacitor starts on the center position;
 
-int tuneStep = NORMAL_TUNE_STEP;            // The tune mode start in normal steps
+int tuneStep = NORMAL_TUNE_STEP;       // The tune mode start in normal steps
 int switchValue = 0;
 
 unsigned long currentTime;
@@ -84,14 +83,13 @@ void setup()  {
   currentTime = millis();
   loopTime = currentTime; 
   
-  irrecv.enableIRIn();             // Habilita o processo de leitura do IR  
+  irrecv.enableIRIn();             // Start the IR receiver
   
-  capacitor.attach(SERVO_PIN,MIN_PULSE,MAX_PULSE);   // attaches the servo   
+  capacitor.attach(SERVO_PIN,MIN_PULSE,MAX_PULSE);   // attach the servo to the Arduino pin.   
   
   capacitor.writeMicroseconds( CENTER_PULSE );
   delay(1000);
-  
-  // Serial.begin (9600);
+ 
 } 
 
 

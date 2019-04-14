@@ -3,10 +3,24 @@
 This folder has the source code of the Antenna Tuner and also a tools the will help you to use any IR device remote control (Old TV, Radio etc) with our main Arduino sketch. 
 
 
+## atu_encoder_ir.ino
+
+This sketch implements a controller with an IR remote control an also an encoder.  
+
+## atu_encoder_ir_simple.ino
+
+Same atu_encoder_ir.ino without LED indicators
+
+
+## CheckYourRemoteControl.ino
+
 Use the sketch [CheckYourRemoteControl.ino](https://github.com/pu2clr/ATU-with-IR-and-Android-for-Magnetic-Loop/blob/master/source/CheckYourRemoteControl/CheckYourRemoteControl.ino) to get the code returned for each key.
 
 
-## Regular IR Remote Control 
+## IR Remote Contrtol Examples
+
+
+### Regular IR Remote Control 
 
 ![Photo IR Control 01](https://github.com/pu2clr/ATU-with-IR-and-Android-for-Magnetic-Loop/blob/master/Photos/photo_ir_01.png)
 
@@ -37,8 +51,7 @@ Use the sketch [CheckYourRemoteControl.ino](https://github.com/pu2clr/ATU-with-I
 
 
 
-
-## Small IR Remote Control 
+### Small IR Remote Control 
 
 The photo below shows another kind the controle tha can be used. 
 
