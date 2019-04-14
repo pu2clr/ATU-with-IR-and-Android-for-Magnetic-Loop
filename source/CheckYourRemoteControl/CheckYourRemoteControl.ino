@@ -1,5 +1,8 @@
 #include <IRremote.h>
+
 int RECV_PIN = 9;
+
+// 
 IRrecv irrecv(RECV_PIN);
 decode_results results;
 
@@ -13,9 +16,11 @@ void setup()
 
 void loop()
 {
+  // Check the IR
   if (irrecv.decode(&results))
     {
-     Serial.println(results.value);
-     irrecv.resume(); // Receive the next value
+     Serial.println("Take note. It is the code for this action: ");
+     Serial.print(results.value);
+     irrecv.resume(); // Ready to receive the next value
     }
 }
