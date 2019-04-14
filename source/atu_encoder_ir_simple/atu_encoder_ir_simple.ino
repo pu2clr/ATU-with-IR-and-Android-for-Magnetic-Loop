@@ -1,4 +1,13 @@
 
+/* 
+Magnetic Antenna Tuner controlled by Arduino via encoder and IR Remote Control
+Similar to atu_encoder_ir.ino without LED indicators
+
+By PU2CLR, 
+Ricardo Lima Caratti
+Jan, 2013
+*/
+
 #include <IRremote.h>
 #include <Servo.h> 
 

@@ -1,7 +1,6 @@
 /* 
 Magnetic Antenna Tuner controlled by Arduino via encoder and IR Remote Control
 
-
 By PU2CLR, 
 Ricardo Lima Caratti
 Jan, 2013
