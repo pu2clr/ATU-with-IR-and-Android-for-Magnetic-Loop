@@ -1,13 +1,16 @@
 # Source code and IR Remote Control tools
 
-This folder has the source code of the Antenna Tuner and also a tools the will help you to use any IR device remote control (Old TV, Radio etc) with our main Arduino sketch.
+This folder has the source code of the Antenna Tuner and also a tools the will help you to use any IR device remote control (Old TV, Radio etc) with our main Arduino sketch. 
 
 
+Use the sketch [CheckYourRemoteControl.ino](https://github.com/pu2clr/ATU-with-IR-and-Android-for-Magnetic-Loop/blob/master/source/CheckYourRemoteControl/CheckYourRemoteControl.ino) to get the code returned for each key.
 
 
+## Regular IR Remote Control 
 
+![Photo IR Control 01](https://github.com/pu2clr/ATU-with-IR-and-Android-for-Magnetic-Loop/blob/master/Photos/photo_ir_01.png)
 
-| Acation | Returned value | Description |
+| Acation  Key| Returned value | Description |
 | ------- | -------------- | ----------- |
 | keep pressed | 4294967295 | Return this value if you keep any button pressed. |
 | On/Off     | 16753245   |    |  
@@ -35,18 +38,22 @@ This folder has the source code of the Antenna Tuner and also a tools the will h
 
 
 
+## Small IR Remote Control 
 
+The photo below shows another kind the controle tha can be used. 
 
+![Photo IR Control 02](https://github.com/pu2clr/ATU-with-IR-and-Android-for-Magnetic-Loop/blob/master/Photos/photo_ir_02.png)
 
+The table below shows the codes returned by each key. 
 
-| Acation | One touch value | Keep Pressed |
+| Acation Key | One touch value | Keep Pressed |
 | ------- | --------------  | -----------  |
-| On/Off  | 12              | 2060         |                  
-| Up      | 32    			| 2080         |              
-| Down    | 33    			| 2081         |              
-| MUTE    | 13    			| 2061         |              
-| LEFT    | 17              | 2065         |                  
-| RIGHT   | 16              | 2064         |                  
-| AV/TV   | 11              | 2059         |     
+| On/Off  |   12            | 2060         |                  
+| Up      |   32        	| 2080         |              
+| Down    |   33    		| 2081         |              
+| MUTE    |   13    		| 2061         |              
+| LEFT    |   17            | 2065         |                  
+| RIGHT   |   16            | 2064         |                  
+| AV/TV   |   11            | 2059         |     
 
 
