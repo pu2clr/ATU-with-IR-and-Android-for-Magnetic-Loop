@@ -1,3 +1,11 @@
+/* 
+Magnetic Antenna Tuner controlled by Arduino via encoder and IR Remote Control
+
+
+By PU2CLR, 
+Ricardo Lima Caratti
+Jan, 2013
+*/
 
 #include <IRremote.h>
 #include <Servo.h> 
@@ -127,7 +135,6 @@ void loop()  {
   
   // get the current elapsed time
   currentTime = millis();
-
   
   // check infrared
   if (irrecv.decode(&results)) {
@@ -164,9 +171,9 @@ void loop()  {
             break;
     }
     
-    irrecv.resume();  // Recebe o proximo valor
+    irrecv.resume();  // Ready to receive next value
   }
-  else {
+  else { // Check Encoder
     if(currentTime >= (loopTime + 5)) {
        // 5ms since last check of encoder = 200Hz  
        encoder_A = digitalRead(pin_A);    // Read encoder pins
